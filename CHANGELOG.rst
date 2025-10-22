@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.3.3 (2025-10-22)
+------------------
 * Fix gazebo ft sensor name
 * Contributors: sofieblankers
 
