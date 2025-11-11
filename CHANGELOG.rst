@@ -2,6 +2,11 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fix FT orientation
+* Contributors: thomaspeyrucain
+
 2.3.3 (2025-10-22)
 ------------------
 * Fix gazebo ft sensor name
