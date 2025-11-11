@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.3.4 (2025-11-11)
+------------------
 * Fix FT orientation
 * Contributors: thomaspeyrucain
 
