@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.3.5 (2025-11-25)
+------------------
 * Merge branch 'omm/talos_imu_fix' into 'humble-devel'
   Added needed config so IMU follows ROS 2 conventions
   See merge request robots/pal_urdf_utils!21
