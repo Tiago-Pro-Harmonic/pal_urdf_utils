@@ -2,6 +2,14 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'omm/talos_imu_fix' into 'humble-devel'
+  Added needed config so IMU follows ROS 2 conventions
+  See merge request robots/pal_urdf_utils!21
+* Added needed config so IMU follows ROS 2 conventions
+* Contributors: Sai Kishor Kothakota, Óscar Martínez
+
 2.3.4 (2025-11-11)
 ------------------
 * Fix FT orientation
