@@ -29,7 +29,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://pal_urdf_utils/meshes/laser/sick_tim551.stl"/>
+          <mesh filename="file://$(find pal_urdf_utils)/meshes/laser/sick_tim551.stl"/>
         </geometry>
         <material name="DarkGrey"/>
       </visual>
