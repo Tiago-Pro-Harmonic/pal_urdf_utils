@@ -2,6 +2,12 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fix xtion_pro_live mesh paths
+* Use find for searching packages for meshes
+* Contributors: Noel Jimenez
+
 2.3.5 (2025-11-25)
 ------------------
 * Merge branch 'omm/talos_imu_fix' into 'humble-devel'
