@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.3.6 (2025-12-05)
+------------------
 * Fix xtion_pro_live mesh paths
 * Use find for searching packages for meshes
 * Contributors: Noel Jimenez
