@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.4.0 (2025-12-09)
+------------------
 * Adapt interaction_sensors and laser for new gazebo
 * Contributors: Noel Jimenez
 
