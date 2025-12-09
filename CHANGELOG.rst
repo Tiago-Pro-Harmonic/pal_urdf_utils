@@ -2,6 +2,11 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Adapt interaction_sensors and laser for new gazebo
+* Contributors: Noel Jimenez
+
 2.3.6 (2025-12-05)
 ------------------
 * Fix xtion_pro_live mesh paths
