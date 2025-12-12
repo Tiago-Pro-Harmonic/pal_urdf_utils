@@ -2,6 +2,12 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* changing name mesh
+* fixing laser
+* Contributors: susannamastromauro
+
 2.4.0 (2025-12-09)
 ------------------
 * Adapt interaction_sensors and laser for new gazebo
