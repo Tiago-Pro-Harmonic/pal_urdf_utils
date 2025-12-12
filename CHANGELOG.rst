@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.4.1 (2025-12-12)
+------------------
 * changing name mesh
 * fixing laser
 * Contributors: susannamastromauro
