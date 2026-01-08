@@ -19,7 +19,7 @@
   <xacro:include filename="$(find pal_urdf_utils)/urdf/camera/structure_sensor.gazebo.xacro" />
 
   <!-- Macro -->
-  <xacro:macro name="structure_sensor" params="name parent *origin *optical_origin gazebo_version:=gazebo">
+  <xacro:macro name="structure_sensor" params="name parent *origin *optical_origin gazebo_version:=classic">
 
     <!-- frames in the center of the camera -->
     <joint name="${name}_joint" type="fixed">
