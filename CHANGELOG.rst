@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.5.0 (2026-01-09)
+------------------
 * Migrate openni camera to new gazebo
 * Contributors: Noel Jimenez
 
