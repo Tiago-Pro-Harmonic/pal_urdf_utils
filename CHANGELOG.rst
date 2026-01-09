@@ -2,6 +2,11 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Migrate openni camera to new gazebo
+* Contributors: Noel Jimenez
+
 2.4.1 (2025-12-12)
 ------------------
 * changing name mesh
