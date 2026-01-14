@@ -18,11 +18,6 @@
 
   <xacro:macro name="sick_tim571_laser_gazebo" params="name ros_topic update_rate min_angle max_angle">
 
-    <xacro:property name="gazebo_version" value="$(arg gazebo_version)"/>
-    <xacro:if value="${gazebo_version not in ['classic', 'gazebo']}">
-      <xacro:wrong_gazebo_version/>
-    </xacro:if>
-
     <gazebo reference="${name}_link">
       <sensor name="${name}" type="gpu_lidar">
         <update_rate>${update_rate}</update_rate>
