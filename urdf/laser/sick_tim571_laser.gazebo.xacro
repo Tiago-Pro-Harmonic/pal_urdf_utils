@@ -16,7 +16,7 @@
  -->
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <xacro:macro name="sick_tim571_laser_gazebo" params="name ros_topic update_rate min_angle max_angle gazebo_version">
+  <xacro:macro name="sick_tim571_laser_gazebo" params="name ros_topic update_rate min_angle max_angle">
 
     <xacro:property name="gazebo_version" value="$(arg gazebo_version)"/>
     <xacro:if value="${gazebo_version not in ['classic', 'gazebo']}">

@@ -16,7 +16,7 @@
  -->
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <xacro:macro name="structure_sensor_rgbd_camera_gazebo" params="name gazebo_version:=classic">
+  <xacro:macro name="structure_sensor_rgbd_camera_gazebo" params="name">
     <gazebo reference="${name}_link">
       <!-- IR + depth -->
       <xacro:if value="${gazebo_version == 'classic'}">
