@@ -2,6 +2,17 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* small fix to prevent ghost obstacles
+* remove gazebo version check property
+* avoid duplicate definition of the camera config
+* remove gazebo version parameter from macros
+* set gazebo default version to classic for structure sensor
+* migrate structure sensor to new gazebo
+* add gazebo parameter to sick tim 571
+* Contributors: thomasung
+
 2.5.0 (2026-01-09)
 ------------------
 * Migrate openni camera to new gazebo
