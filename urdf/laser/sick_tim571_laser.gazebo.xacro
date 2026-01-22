@@ -31,7 +31,7 @@
               <!-- 818 (270/0.33) steps in 270deg fov -->
               <samples>${818*(max_angle - min_angle)/(270.0 * deg_to_rad)}</samples>
               <resolution>1</resolution>              <!-- not the sensor resolution; just 1 -->
-              <min_angle>${min_angle}</min_angle>
+              <min_angle>${min_angle -1}</min_angle> <!--there is a laserscan detecting ghost obstacle-->
               <max_angle>${max_angle}</max_angle>
             </horizontal>
           </scan>
