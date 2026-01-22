@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.5.1 (2026-01-22)
+------------------
 * small fix to prevent ghost obstacles
 * remove gazebo version check property
 * avoid duplicate definition of the camera config
