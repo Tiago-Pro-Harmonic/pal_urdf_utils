@@ -2,6 +2,12 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Revert "Merge branch 'tun/feat/update-sensor-gazebo' into 'humble-devel'"
+  This reverts merge request !26
+* Contributors: Noel Jimenez
+
 2.5.1 (2026-01-22)
 ------------------
 * small fix to prevent ghost obstacles
