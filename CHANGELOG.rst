@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.5.3 (2026-01-26)
+------------------
 * use radians instead of degree to define angles
 * Reapply "Merge branch 'tun/feat/update-sensor-gazebo' into 'humble-devel'"
   This reverts commit 1cb56a2ae5fe6d407cfa800d7deb3553e43aac79.
