@@ -17,6 +17,7 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
 
   <xacro:macro name="sick_tim571_laser_gazebo" params="name ros_topic update_rate min_angle max_angle">
+
     <gazebo reference="${name}_link">
       <sensor name="${name}" type="gpu_lidar">
         <update_rate>${update_rate}</update_rate>
@@ -30,7 +31,7 @@
               <!-- 818 (270/0.33) steps in 270deg fov -->
               <samples>${818*(max_angle - min_angle)/(270.0 * deg_to_rad)}</samples>
               <resolution>1</resolution>              <!-- not the sensor resolution; just 1 -->
-              <min_angle>${min_angle}</min_angle>
+              <min_angle>${min_angle + deg_to_rad}</min_angle> <!--there is a laserscan detecting ghost obstacle-->
               <max_angle>${max_angle}</max_angle>
             </horizontal>
           </scan>
