@@ -2,8 +2,8 @@
 Changelog for package pal_urdf_utils
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.5.4 (2026-01-29)
+------------------
 * Use package instead of find for meshes lookup
   This change avoids errors when visualizing the robot in rviz2 from a
   remote host instead of directly inside the robot
