@@ -158,6 +158,7 @@
       <sensor name="${name}_imu_sensor" type="imu">
         <always_on>1</always_on>
         <update_rate>200</update_rate>
+        <topic>${name}/imu</topic>
         <imu>
           <noise>
             <type>gaussian</type>
@@ -175,24 +176,6 @@
             </accel>
           </noise>
         </imu>
-        <plugin name="${name}_imu" filename="libgazebo_ros_imu_sensor.so">
-          <frame_name>${name}_accel_optical_frame</frame_name>
-          <ros>
-            <namespace>${namespace}</namespace>
-            <!-- publish to /imu/data -->
-            <remapping>~/out:=${name}/imu</remapping>
-            <qos>
-              <topic name="${name}/imu">
-                <publisher>
-                  <reliability>best_effort</reliability>
-                  <durability>volatile</durability>
-                  <history depth="1">keep_last</history>
-                  <liveliness>automatic</liveliness>
-                </publisher>
-              </topic>
-            </qos>
-          </ros>
-        </plugin>
       </sensor>
     </gazebo>
 

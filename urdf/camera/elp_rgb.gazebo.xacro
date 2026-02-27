@@ -22,7 +22,10 @@
       <sensor type="camera" name="${name}_frame_sensor">
         <always_on>true</always_on>
         <update_rate>30.0</update_rate>
+        <topic>${name}/rgb/image_raw</topic>
+        <gz_frame_id>${name}_link</gz_frame_id>
         <camera>
+          <camera_info_topic>${name}/rgb/camera_info</camera_info_topic>
           <horizontal_fov>${90.0 * deg_to_rad}</horizontal_fov>
           <image>
             <format>R8G8B8</format>
@@ -46,44 +49,6 @@
             <p2>0.0</p2>
           </distortion>
         </camera>
-        <plugin name="${name}_frame_controller" filename="libgazebo_ros_camera.so">
-          <camera_name>${name}</camera_name>
-          <frame_name>${name}_link</frame_name>
-          <ros>
-            <namespace>${namespace}</namespace>
-            <remapping>${name}/image_raw:=${name}/rgb/image_raw</remapping>
-            <remapping>${name}/camera_info:=${name}/rgb/camera_info</remapping>
-            <remapping>${name}/image_raw/compressed:=${name}/rgb/image_raw/compressed</remapping>
-            <remapping>${name}/image_raw/compressedDepth:=${name}/rgb/image_raw/compressedDepth</remapping>
-            <remapping>${name}/image_raw/theora:=${name}/rgb/image_raw/theora</remapping>
-            <qos>
-              <topic name="${name}/rgb/image_raw">
-                <publisher>
-                  <reliability>best_effort</reliability>
-                  <durability>volatile</durability>
-                  <history depth="1">keep_last</history>
-                  <liveliness>automatic</liveliness>
-                </publisher>
-              </topic>
-              <topic name="${name}/rgb/image_raw/compressed">
-                <publisher>
-                  <reliability>best_effort</reliability>
-                  <durability>volatile</durability>
-                  <history depth="1">keep_last</history>
-                  <liveliness>automatic</liveliness>
-                </publisher>
-              </topic>
-              <topic name="${name}/rgb/image_raw/compressedDepth">
-                <publisher>
-                  <reliability>best_effort</reliability>
-                  <durability>volatile</durability>
-                  <history depth="1">keep_last</history>
-                  <liveliness>automatic</liveliness>
-                </publisher>
-              </topic>
-            </qos>
-          </ros>
-        </plugin>
       </sensor>
     </gazebo>
   </xacro:macro>
